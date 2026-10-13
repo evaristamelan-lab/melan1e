@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Curriculum Vitae (CV)</title>
+	<link rel="stylesheet" href="./style.css">	<!--=========Menghubungkan HTML dengan file CSS-->
+</head>
+<body>
+	<!--====================Container Utama====================-->
+	<div class="container">
+	<h1>CURRICULUM  VITAE (CV)</h1>
+	<hr>
+	<!--=================Foto Dan Identitas Diri==============-->
+	<table class="identitas">
+		<tr>
+			<!-- Kolom Foto -->
+			<td class="kolom-foto"> 
+				<img src="./me.jpeg" alt="foto-Profil" width="180px" height="200px"  class="foto-Profil" border="3px solid #E2B4BD" >
+			</td>
+			<!--Kolom Identitas -->
+			<td class="kolom-identitas">
+				<h2>Identitas Diri</h2>
+				<table class="data-identitas">
+					<tr>
+						<td><strong>Nama Lengkap</strong></td>
+						<td>:</td>
+						<td>Evarista Melan</td>
+					</tr>
+					<tr>
+						<td><strong>NPM</strong></td>
+						<td>:</td>
+						<td>51250064</td>
+					</tr>
+					<tr>
+						<td><strong>Program Studi</strong></td>
+						<td>:</td>
+						<td>Teknologi Informasi</td>
+					</tr>
+					<tr>
+						<td><strong>Tempat, Tanggal Lahir</strong></td>
+						<td>:</td>
+						<td>Wereng,03 Maret 2007</td>
+					</tr>
+					<tr>
+						<td><strong>Alamat</strong></td>
+						<td>:</td>
+						<td>BTN,Kefamenanu, Timor Tengah Utara,Nusa Tenggara Timur</td>
+					</tr>
+					<tr>
+						<td><strong>No. HP</strong></td>
+						<td>:</td>
+						<td>08xxxxxxxxxx</td>
+					</tr>
+				</table>
+				</td>
+				</tr>
+				</table>
+<hr>
+<h2>Profil Singkat</h2>
+<p>  Saya adalah mahasiswa Program studi <strong>Teknologi Informasi Universitas Timor</strong>.
+	Saya memiliki ketertarikan terhadap pengembangan, khususnya dalam bidang <mark> Web Development</mark>.
+	Saya memiliki motivasi untuk terus belajar dan mengembangkan kemampuan dalam bidang teknologi informasi 
+	agar dapat memberikan manfaat bagi masyarakat
+</p>
+<div class="grid-informasi">
+	<!============RIWAYAT PENDIDIKAN=========-->
+	<div class="card">
+<h2>Riwayat Pendidikan</h2>
+<ol>
+	<li>SDK Golo Terong</li>
+	<li>SMPN 5 Lamba Leda</li>
+	<li>SMK ST. Bartholomeus Benteng Jawa</li>
+</ol>
+</div>
+	<!=============HOBY===================-->
+<div class="card">
+<h2>Hobi</h2>
+<ul>
+	<li>Membaca</li>
+	<li>Mendengarkan Musik</li>
+	<li>Menonton K-pop</li>
+</ul>
+</div>
+	<!===========BIDANG MINAT============-->
+<div class="card">
+<h2> Bidang Minat</h2>
+<ul>
+	<li>Web Development</li>
+	</ul>
+	</div>
+</div>
+<p>Bidang yang paling saya minati adalah<strong><u> Web Development</u></strong>
+	karena saya ingin mampu membuat website yang menarik, informatif, dan bermanfaat.
+</p>
+<hr>
+<h2>Mata Kuliah Semester Ini</h2>
+<table class="matakuliah">
+	<tr>
+		<th>No.</th>
+		<th>Kode MK</th>
+		<th>Nama Mata Kuliah</th>
+		<th>SKS</th>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>TI201</td>
+		<td>Pemrograman Web Dasar</td>
+		<td>3</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>TI202</td>
+		<td>Basis Data</td>
+		<td>3</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>TI202</td>
+		<td>Organisasi dan Arsitektur Komputer</td>
+		<td>3</td>
+	</tr>
+	</table>
+	<hr>
+	<h2>Target dan Cita-Cita</h2>
+	<p>
+		Target saya selama menempuh pendidikan di program studi Teknoogi Informasi adalah
+		 meningkatkan kemampuan dalam <em> pemrograman dan pengembangan teknologi </em>
+		 saya berharap dapat menjadi seorang<strong> web developer</strong> yang mampu
+		 menghasilkan aplikasi web yang bermanfaat bagi masyarakat.
+		</p>
+		<p> Kunjungi website resmi <a href="https://unimor.ac.id" target="_blank">Universitas Timor</a>
+			></p>
+	<hr>
+	<h2>Form Kontak</h2>
+		<p>Silakan mengisi form berikut jika ingin menghubungi saya</p>
+	<form id="formkontak">
+		<div class="form-group">
+			<label for="nama">Nama Lengkap</label>
+			<input type="text" id="nama" name="nama" 
+			placeholder="Masukkan nama lengkap anda">
+		</div>
+		<!==============================Input Email=================--->
+		<div class="form-group">
+			<label for="email">Email</label>
+			<input type="email" id="email" name="email" 
+			placeholder="Masukan email">
+		</div>
+		<!================================Input No.Telepon============-->
+		<div class="form-group">
+			<label>NO.Telepon</label>
+			<input type="telepon" id="telepon" name="telepon" 
+			placeholder="6281243408062">
+		</div>
+		<!===============================Pilih Minat===============-->
+		<div class="form-group">
+			<label for="minat">Bidang Minat</label>
+			<select id ="minat" name="minat">
+				<option value="">--Pilih Bidang Minat--</option>
+				<option value="web">Web Development</option>
+				<option value="uiux">UI/UX Design</option>
+				<option value="ai">Artificial Intelligent</option>
+				<option value="data">Data Analisis</option>
+			</select>
+		</div>
+		<!================================Text area ketik pesan============-->
+		<div class="form-group">
+			<label for="pesan">pesan</label>
+			<textarea id="pesan" name="pesan" rows="5" placeholder="Tuliskan pesan anda"></textarea>
+		</div>
+		<!--============================Tombol====================-->
+		<button type="submit">Kirim Pesan Ke WhatsApp</button>
+		<button type="reset">Reset</button>
+	</form>
+	<hr>
+	<!--==========================footer===========================-->
+	<p>CV ini dibuat sebagai latihan mata kuliah Pemrograman Web Dasar.</p>
+	<p>Made with love by Evarista Melan</p>
+</div>
+<script src="./formkontak.js"></script>
+</body>
+</html> 

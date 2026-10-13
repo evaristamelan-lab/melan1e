@@ -1,0 +1,222 @@
+/*======================================*/
+/*PENGATURAN DASAR HALAMAN */
+/*======================================*/
+
+body{
+	background-color:#FFF0EB;
+
+	font-family: arial,sans-serif;
+
+	color: #4A3438;
+
+	margin: 0;
+
+	padding: 20PX;
+}
+
+
+/*======================================*/
+/* CONTAINER UTAMA */
+/*======================================*/
+
+.container {
+	width: 80%;
+
+	margin: 30px auto;
+
+	padding: 30px;
+
+	background-color: white;
+}
+
+/*======================================*/
+/* JUDUL UTAMA */
+/*======================================*/
+
+h1{
+	color: #8B3A4A;
+
+	text-align: center;
+
+	margin-bottom: 20px;
+}
+
+
+/*======================================*/
+/* SUB UTAMA */
+/*======================================*/
+
+h2{
+	color: #9A4D5A;
+
+	margin-top: 30px;
+
+	margin-bottom: 15px;
+}
+
+/*======================================*/
+/* PARAGRAF */
+/*======================================*/
+p{
+	font-size: 16px;
+	line-height: 1.7;
+	text-align: justify;
+}
+
+/*======================================*/
+/* FOTO DAN IDENTITAS */
+/*======================================*/
+.identitas{
+	width: 100%;
+}
+.kolom-foto{
+	vertical-align: top;
+
+	padding-right: 30px;
+}
+.kolom-identitas{
+	vertical-align: top;
+}
+.foto-profil {
+
+	border:2px solid #E2B4BD;
+
+	padding: 5px;
+}
+.data-identitas td{
+	padding: 5px;
+}
+
+/*======================================*/
+/* LIST */
+/*======================================*/
+ul,
+ol{
+	line-height: 1.8;
+}
+
+/*======================================*/
+/* TABEL MATA KULIAH */
+/*======================================*/
+.matakuliah{
+	width: 100%;
+
+	border-collapse: collapse;
+
+	margin-top: 15px;
+
+	margin-bottom: 20px;
+}
+.matakuliah th{
+	background-color: #722F37;
+
+	color: white;
+
+	padding: 10px;
+
+	border: 1px solid #E2B4BD;
+}
+
+.matakuliah td {
+	padding: 10px;
+
+	border: 1px solid #E5B4BD;
+}
+/*======================================*/
+/* LINK */
+/*======================================*/
+
+a {
+	color:#A84252;
+	text-decoration: none;
+	
+}
+
+a:hover {
+	color: red;
+	text-decoration: underline;
+}
+
+/*======================================*/
+/* FORM */
+/*======================================*/
+
+form {
+	background-color: #FF0F3;
+
+	padding: 20px;
+
+	margin-top: 20px;
+
+	border: 1px solid #F4C2C2;
+}
+
+
+/* KELOMPOK INPUT*/
+
+.form-group{
+	margin-bottom: 15px;
+}
+
+/* LABEL FORM*/
+label {
+	display: block;
+	font-weight: bold;
+
+	margin-bottom: 5px;
+}
+
+/* INPUT, SELECT, DAN TEXTAREA*/
+
+input,
+select,
+textarea {
+
+	width:100%;
+
+	padding: 10px;
+
+	border: 1px solid #cccccc;
+
+	box-sizing: border-box;
+}
+
+/* TEXTAREA*/
+textarea{
+	resize:vertical;
+}
+/*================BUTTON==================*/
+button{
+	background-color: #722F37;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	margin-right:10px;
+	cursor: pointer;
+}
+
+button:hover{
+	bottom: ;
+
+}
+
+/*======================FOOTER============*/
+.footer{
+	text-align: center;
+	color:#666666;
+	margin-top: 30px;
+}
+
+.grid-informasi	{
+	display:grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap:20px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.card{
+	background-color:#FFF0F3;
+	padding: 20px;
+	border: 1px solid #F0A2BO;
+}
